@@ -76,7 +76,7 @@ export default function Component() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
                 <Button variant="outline" size="lg" className="border-stone-300 text-stone-700 px-8 py-4 text-lg">
-                  Private Consultation
+                  Private Consultations
                 </Button>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function Component() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-stone-900">50+ Elite Projects</p>
-                    <p className="text-xs text-stone-600">Worldwide Recognition</p>
+                    <p className="text-xs text-stone-600"></p>
                   </div>
                 </div>
               </div>
@@ -256,7 +256,7 @@ export default function Component() {
             <div className="space-y-4">
               <h2 className="text-4xl lg:text-5xl font-light text-stone-900">Uncompromising Excellence</h2>
               <p className="text-xl text-stone-600 leading-relaxed">
-                For over two decades, Harsoor Architects has been the architect of choice for the world's most discerning clients,
+                For over two decades, Harsoor Architects has been the architect of choice for the most discerning clients,
                 creating extraordinary spaces that transcend conventional luxury.
               </p>
             </div>
@@ -299,7 +299,7 @@ export default function Component() {
                 {[
                   { icon: Phone, label: "Private Line", value: "+1 (555) 123-4567" },
                   { icon: Mail, label: "Exclusive Inquiries", value: "contact@meridianarch.com" },
-                  { icon: MapPin, label: "Atelier", value: "Madison Avenue, New York" },
+                  { icon: MapPin, label: "Office", value: "Bengaluru, Karnataka" },
                 ].map((contact, index) => (
                   <div key={index} className="flex items-center space-x-4">
                     <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-600 flex items-center justify-center">
@@ -322,14 +322,14 @@ export default function Component() {
                       <label className="block text-sm font-medium text-stone-300 mb-2">First Name</label>
                       <Input
                         className="bg-white/10 border-white/20 text-white placeholder:text-stone-400"
-                        placeholder="John"
+                        placeholder=""
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-stone-300 mb-2">Last Name</label>
                       <Input
                         className="bg-white/10 border-white/20 text-white placeholder:text-stone-400"
-                        placeholder="Doe"
+                        placeholder=""
                       />
                     </div>
                   </div>
@@ -338,7 +338,7 @@ export default function Component() {
                     <Input
                       type="email"
                       className="bg-white/10 border-white/20 text-white placeholder:text-stone-400"
-                      placeholder="john@example.com"
+                      placeholder=""
                     />
                   </div>
                   <div>
