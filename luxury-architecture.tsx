@@ -15,7 +15,7 @@ export default function Component() {
           <div className="flex h-20 items-center justify-between">
             <div className="flex items-center space-x-2">
               <Crown className="h-8 w-8 text-amber-600" />
-              <span className="text-2xl font-light tracking-wide text-stone-900">MERIDIAN</span>
+              <span className="text-2xl font-light tracking-wide text-stone-900">Harsoor Architects</span>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <Link
@@ -256,7 +256,7 @@ export default function Component() {
             <div className="space-y-4">
               <h2 className="text-4xl lg:text-5xl font-light text-stone-900">Uncompromising Excellence</h2>
               <p className="text-xl text-stone-600 leading-relaxed">
-                For over two decades, Meridian has been the architect of choice for the world's most discerning clients,
+                For over two decades, Harsoor Architects has been the architect of choice for the world's most discerning clients,
                 creating extraordinary spaces that transcend conventional luxury.
               </p>
             </div>
@@ -364,7 +364,7 @@ export default function Component() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Crown className="h-6 w-6 text-amber-600" />
-              <span className="text-xl font-light tracking-wide">MERIDIAN</span>
+              <span className="text-xl font-light tracking-wide">Harsoor Architects</span>
             </div>
             <div className="flex space-x-8 text-sm text-stone-400">
               <Link href="#" className="hover:text-white transition-colors">
@@ -379,7 +379,7 @@ export default function Component() {
             </div>
           </div>
           <div className="border-t border-stone-800 mt-8 pt-8 text-center text-stone-500 text-sm">
-            <p>&copy; {new Date().getFullYear()} Meridian Architecture. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Harsoor Architects. All rights reserved.</p>
           </div>
         </div>
       </footer>
